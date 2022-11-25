@@ -1,0 +1,169 @@
+/* ****************** NavBar************************ */
+
+.Nav-bar {
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  margin-bottom: 100px;
+}
+
+.navbar-brand {
+  padding: 20px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.nav-link {
+  margin-left: 15px;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.image {
+  width: 70%;
+  height: 100%;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+
+/* -------------------------------Grid-------------------------------- */
+
+.col2 {
+  margin-top: 50px;
+}
+
+.grid-right-h1 {
+  color: rgb(228, 120, 43);
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.grid-right-heading {
+  margin-top: 15px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 300;
+  padding-bottom: 25px;
+  width: 70%;
+}
+
+.grid-right-para {
+  font-family: "Kumbh Sans", sans-serif;
+  color: rgb(206, 206, 206);
+  font-weight: 300;
+  width: 70%;
+}
+
+.grid-right-price {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 300;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.grid-right-price-discount-per {
+  display: inline-block;
+  margin-left: 30px;
+  background-color: rgb(236, 217, 193);
+  border-radius: 4px;
+}
+
+.grid-right-price-discount {
+  margin-top: 5px;
+  font-family: "Kumbh Sans", sans-serif;
+  color: rgb(206, 206, 206);
+  display: block;
+}
+
+/* ---------------------Counter and add to cart button styling----------------- */
+
+.counter {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: rgb(238, 230, 230);
+  border-radius: 5px;
+}
+
+.inc {
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+.dec {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.button-style {
+  display: inline-block;
+  color: rgb(228, 120, 43);
+  font-size: 1.5rem;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.val {
+  display: inline-block;
+}
+
+.cart {
+  display: inline-block;
+  margin-left: 50px;
+  background-color: rgb(228, 120, 43);
+  border-radius: 8px;
+  border: none;
+}
+
+.cart-text {
+  margin: 11px 55px;
+  color: azure;
+  font-size: 1rem;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+/* --------------------------Responsive------------------------------*/
+
+@media only screen and (max-width: 600px) {
+  .grid-right-heading {
+    width: 100%;
+  }
+
+  .grid-right-para {
+    width: 100%;
+  }
+
+  .grid-right-price-discount {
+    display: inline-block;
+    margin-left: 100px;
+  }
+}
+
+/* -------------------Navlink-cart------------------------ */
+.wrapper {
+  text-align: center;
+  width: 20%;
+  position: absolute;
+  height: 200px;
+  background-color: rgb(206, 217, 217);
+  margin-top: 10px;
+  border-radius: 10px;
+  right: 200px;
+  margin-top: 50px;
+}
+
+.wrapper h5 {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.wrapper button {
+  background-color: rgb(228, 120, 43);
+  border-radius: 8px;
+  width: 80%;
+  height: 40px;
+  position: relative;
+  top: 100px;
+}
